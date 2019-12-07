@@ -1,0 +1,8 @@
+{
+  "extends": ["tslint-plugin-prettier"],
+  "singleQuote": true,
+  "useTabs": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}
