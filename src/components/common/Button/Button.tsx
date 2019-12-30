@@ -31,7 +31,7 @@ const Button = ({
   return (
     <Element
       to={to}
-      className={cx('button', theme, { disabled })}
+      className={cx('Button', theme, { disabled })}
       onClick={disabled ? () => null : onClick}
     >
       {children}
